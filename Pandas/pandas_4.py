@@ -54,10 +54,35 @@ def dropna(data):
     print(new_titanic_survival)
 
 
+def customer_method(data):
+    titanic_survival = data
+    new_titanic_survival = titanic_survival.sort_values("Age", ascending=False)
+    # print(new_titanic_survival[0:10])
+    new_titanic_survival = new_titanic_survival[0:10].reset_index(drop=True)
+    print(new_titanic_survival)
+
+
+def hundredth_row(column):
+    hundredth_item = column.loc[99]
+    return hundredth_item
+
+
+def not_null_count(column):
+    column_null = pd.isnull(column)
+    null = column[column_null]
+    return len(null)
+
+
 titanic_survival_csv = pd.read_csv("titanic_train.csv")
 # cal_titanic_survival(titanic_survival_csv)
 # cal_passenger_class(titanic_survival_csv)
 # cal_passenger_class_survival(titanic_survival_csv)
 # cal_pclass_age(titanic_survival_csv)
 # cal_embark_fare_survival(titanic_survival_csv)
-dropna(titanic_survival_csv)
+# dropna(titanic_survival_csv)
+# customer_method(titanic_survival_csv)
+# hundredth_row = titanic_survival_csv.apply(hundredth_row)
+# print(hundredth_row)
+column_null_count = titanic_survival_csv.apply(not_null_count)
+print(column_null_count)
+
