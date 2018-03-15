@@ -73,6 +73,36 @@ def not_null_count(column):
     return len(null)
 
 
+def which_class(row):
+    pclass = row['Pclass']
+    if pd.isnull(pclass):
+        return "Unknown"
+    elif pclass == 1:
+        return "First Class"
+    elif pclass == 2:
+        return "Second Class"
+    elif pclass == 3:
+        return "Third Class"
+
+
+def is_minor(row):
+    if row["Age"] < 18:
+        return True
+    else:
+        return False
+
+
+def generate_age_label(row):
+    age = row['Age']
+    if pd.isnull(age):
+        return 'Unknown'
+    elif age < 18:
+        return 'minor'
+    else:
+        return 'adult'
+
+
+
 titanic_survival_csv = pd.read_csv("titanic_train.csv")
 # cal_titanic_survival(titanic_survival_csv)
 # cal_passenger_class(titanic_survival_csv)
@@ -83,6 +113,18 @@ titanic_survival_csv = pd.read_csv("titanic_train.csv")
 # customer_method(titanic_survival_csv)
 # hundredth_row = titanic_survival_csv.apply(hundredth_row)
 # print(hundredth_row)
-column_null_count = titanic_survival_csv.apply(not_null_count)
-print(column_null_count)
 
+# column_null_count = titanic_survival_csv.apply(not_null_count)
+# print(column_null_count)
+
+# classes = titanic_survival_csv.apply(which_class, axis=1)
+# print(classes)
+
+# minors = titanic_survival_csv.apply(is_minor, axis=1)
+# print(minors)
+
+age_labels = titanic_survival_csv.apply(generate_age_label, axis=1)
+# print(age_labels)
+titanic_survival_csv['age_labels'] = age_labels
+age_group_survival = titanic_survival_csv.pivot_table(index="age_labels", values="Survived")
+print(age_group_survival)
