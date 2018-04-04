@@ -71,7 +71,7 @@ def series_lambda():
     types = fandango_films.dtypes
     # print(types)
     float_columns = types[types.values == 'float64'].index
-    # print(float_columns)
+    # print(float_columns)  
     float_df = fandango_films[float_columns]
     # print(float_df)
     deviations = float_df.apply(lambda x: np.std(x), axis=1)
