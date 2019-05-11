@@ -2,13 +2,505 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3cf8c3b-01ce-40e3-82b6-15dd4fd26472" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Matplotlib/fandango_score_comparison.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Matplotlib/mat_3.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Matplotlib/mat_1.py" afterPath="$PROJECT_DIR$/Matplotlib/mat_1.py" />
+      <change afterPath="$PROJECT_DIR$/LogisicRegression/data/LogiReg_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogisicRegression/logistic_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AI_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AI_course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matplotlib/mat_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib/mat_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/easter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/easter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/relativedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/relativedelta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/rrule.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/rrule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/tz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/tz/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/tz/_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/tz/_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/tz/tz.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/tz/tz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/tz/win.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/tz/win.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/zoneinfo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/zoneinfo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/zoneinfo/rebuild.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dateutil/zoneinfo/rebuild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy-1.14.1.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy-1.14.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy-1.14.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy-1.14.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy-1.14.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy-1.14.1.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy-1.14.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/_dummy.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/_dummy.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/arrayprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/arrayprint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/lib/libnpymath.a" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/lib/libnpymath.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/multiarray.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/multiarray.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/multiarray_tests.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/multiarray_tests.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/operand_flag_tests.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/operand_flag_tests.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/records.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/records.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/struct_ufunc_test.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/struct_ufunc_test.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/test_rational.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/test_rational.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_arrayprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_arrayprint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_multiarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_multiarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_records.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_records.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_scalarprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/tests/test_scalarprint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/umath.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/umath.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/umath_tests.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/core/umath_tests.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/distutils/system_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/distutils/system_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/f2py/cb_rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/f2py/cb_rules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/fft/fftpack_lite.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/linalg/_umath_linalg.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/linalg/_umath_linalg.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/linalg/lapack_lite.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/linalg/lapack_lite.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/ma/bench.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/ma/bench.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/random/mtrand.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/random/mtrand.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas-0.22.0.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas-0.22.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas-0.22.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas-0.22.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas-0.22.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas-0.22.0.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas-0.22.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/algos.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/algos.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/groupby.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/groupby.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/hashing.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/hashing.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/hashtable.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/hashtable.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/index.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/index.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/interval.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/interval.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/join.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/join.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/json.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/json.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/lib.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/lib.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/parsers.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/parsers.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/period.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/properties.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/properties.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/reshape.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/reshape.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/sparse.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/sparse.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/testing.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/testing.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslib.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslib.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/fields.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/fields.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/frequencies.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/frequencies.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/parsing.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/parsing.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/strptime.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/strptime.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/timedeltas.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/timedeltas.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/timezones.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/tslibs/timezones.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/window.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_libs/window.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/compat/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/compat/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/compat/numpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/compat/numpy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/compat/openpyxl_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/compat/pickle_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/compat/pickle_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/computation/expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/computation/expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/accessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/accessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/algorithms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/categorical.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/categorical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/align.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/align.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/expr.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/expr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/pytables.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/pytables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/scope.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/computation/scope.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/config_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/config_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/datetools.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/datetools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/cast.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/cast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/dtypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/missing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/missing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/groupby.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/accessors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/accessors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/datetimelike.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/datetimelike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/datetimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/datetimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/interval.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/interval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/multi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/numeric.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/numeric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/period.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/period.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/range.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/timedeltas.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexes/timedeltas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/internals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/internals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/missing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/missing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/nanops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/nanops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/panel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/panel4d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/panelnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/resample.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/resample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/pivot.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/pivot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/reshape.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/reshape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/tile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/reshape/tile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/series.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/series.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/sparse/series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/tools/datetimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/tools/datetimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/tools/timedeltas.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/tools/timedeltas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/util/hashing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/util/hashing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/errors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/errors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/clipboard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/clipboard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/clipboard/clipboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/clipboard/clipboards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/clipboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/clipboards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/feather_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/feather_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/console.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/format.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/printing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/printing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/style.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/terminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/formats/terminal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/gbq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/gbq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/html.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/json/json.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/json/json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/json/normalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/json/normalize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/json/table_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/json/table_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/msgpack/_packer.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/msgpack/_packer.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/msgpack/_unpacker.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/msgpack/_unpacker.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/packers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/packers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/parquet.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/parquet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/parsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/parsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/pytables.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/pytables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/s3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sas/_sas.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sas/_sas.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sas/sas7bdat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sas/sas7bdat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sas/sas_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sas/sas_constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sas/sas_xport.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sas/sas_xport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/stata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/stata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/io/wb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_style.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_style.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_timeseries.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_timeseries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/plotting/_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/stats/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/stats/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/stats/moments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/api/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/api/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/api/test_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/api/test_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/computation/test_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/computation/test_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/computation/test_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/computation/test_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_cast.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_cast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_dtypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_inference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_io.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_missing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/dtypes/test_missing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_alter_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_alter_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_analytics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_axis_select_reindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_axis_select_reindex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_block_internals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_block_internals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_combine_concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_combine_concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_constructors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_convert_to.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_convert_to.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_dtypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_join.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_join.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_missing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_missing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_mutate_columns.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_mutate_columns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_nonunique_indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_nonunique_indexes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_query_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_query_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_rank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_replace.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_replace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_repr_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_repr_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_reshape.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_reshape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_subclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_subclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_timeseries.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_timeseries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/frame/test_to_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_aggregate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_bin_groupby.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_bin_groupby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_categorical.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_categorical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_groupby.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_groupby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_index_as_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_index_as_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_nth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_nth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_timegrouper.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_timegrouper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_value_counts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_value_counts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_whitelist.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/groupby/test_whitelist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimelike.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimelike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_astype.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_astype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_construction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_construction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_date_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_date_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_datetimelike.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_datetimelike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_formats.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_formats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_missing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_missing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_partial_slicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_partial_slicing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_setops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/datetimes/test_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_asfreq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_asfreq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_construction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_construction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_formats.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_formats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_period.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_period.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_setops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/period/test_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_interval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_multi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_numeric.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_numeric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/test_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_astype.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_astype.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_construction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_construction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_partial_slicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_partial_slicing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_setops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_setops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_timedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_timedelta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_timedelta_range.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_timedelta_range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexes/timedeltas/test_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_categorical.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_categorical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_chaining_and_caching.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_chaining_and_caching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_coercion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_coercion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_floats.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_floats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_iloc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_iloc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_indexing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_indexing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_indexing_slow.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_indexing_slow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_interval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_ix.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_ix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_loc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_loc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_multiindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_multiindex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_panel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_partial.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_partial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_timedelta.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/indexing/test_timedelta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/internals/test_external_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/internals/test_internals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/internals/test_internals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/data/banklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/data/banklist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/data/macau.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/data/macau.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/data/spam.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/data/spam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_css.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_css.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_format.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_printing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_printing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_style.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_style.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_to_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_to_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_to_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_to_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_to_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_to_latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/formats/test_to_latex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/generate_legacy_storage_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/generate_legacy_storage_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_compression.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_compression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_json_table_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_json_table_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_normalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_normalize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_readlines.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_readlines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_ujson.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/json/test_ujson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/msgpack/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/msgpack/test_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/msgpack/test_extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/msgpack/test_extension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/msgpack/test_pack.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/msgpack/test_pack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/msgpack/test_seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/msgpack/test_seq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/c_parser_only.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/c_parser_only.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/compression.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/compression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/converters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/header.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/na_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/na_values.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/parse_dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/parse_dates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/test_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/test_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/test_parsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/test_parsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/test_textreader.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/test_textreader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/test_unsupported.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/test_unsupported.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/usecols.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/parser/usecols.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/sas/test_sas7bdat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/sas/test_sas7bdat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_clipboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_clipboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_feather.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_feather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_packers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_packers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_parquet.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_parquet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_pytables.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_pytables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_s3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_stata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/io/test_stata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_boxplot_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_boxplot_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_datetimelike.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_datetimelike.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_deprecated.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_deprecated.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_groupby.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_groupby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_hist_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_hist_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_series.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/plotting/test_series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/allow_exact_matches.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/allow_exact_matches_and_tolerance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/asof.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/asof2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/quotes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/quotes2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/tolerance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/trades.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/data/trades2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_join.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_merge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_merge_asof.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_merge_ordered.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_pivot.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_pivot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_reshape.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_reshape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_tile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_tile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_union_categoricals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/reshape/test_union_categoricals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/scalar/test_interval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/scalar/test_nat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/scalar/test_nat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/scalar/test_period.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/scalar/test_period_asfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/scalar/test_timedelta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/scalar/test_timestamp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_alter_axes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_alter_axes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_analytics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_apply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_combine_concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_combine_concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_constructors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_constructors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_datetime_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_datetime_values.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_dtypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_dtypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_indexing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_missing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_missing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_operators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_period.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_period.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_quantile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_quantile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_rank.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_rank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_repr.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_repr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_subclass.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_subclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_timeseries.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/series/test_timeseries.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_combine_concat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_combine_concat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_frame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_libsparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_libsparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/sparse/test_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_algos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_categorical.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_downstream.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_downstream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_multilevel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_multilevel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_nanops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_nanops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_panel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_panel4d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_panelnd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_resample.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_resample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_take.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_take.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/test_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/tseries/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/tseries/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/tseries/data/cday-0.14.1.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/tseries/data/dateoffset_0_15_2.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/tseries/test_frequencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/tseries/test_frequencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/tseries/test_offsets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/tseries/test_timezones.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/util/test_hashing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/util/test_hashing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/util/test_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/util/test_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/util/test_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tests/util/test_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tools/hashing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tseries/frequencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tseries/frequencies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tseries/holiday.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tseries/holiday.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tseries/offsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tseries/offsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tseries/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tslib.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/tslib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/_decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/_decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/_doctools.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/_doctools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/_move.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/_move.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/_validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/_validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/hashing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/util/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/python_dateutil-2.6.1.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/python_dateutil-2.6.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/python_dateutil-2.6.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/python_dateutil-2.6.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/python_dateutil-2.6.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/python_dateutil-2.6.1.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/python_dateutil-2.6.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/python_dateutil-2.6.1.dist-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2018.3.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2018.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2018.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2018.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2018.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2018.3.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2018.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz-2018.3.dist-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/lazy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/lazy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/tzinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/tzinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Bissau" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Bissau" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Sao_Tome" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Sao_Tome" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Grand_Turk" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Grand_Turk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Jamaica" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Jamaica" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Montevideo" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Montevideo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Antarctica/Casey" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Antarctica/Casey" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Gaza" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Gaza" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Hebron" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Hebron" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Macao" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Macao" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Macau" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Macau" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Atlantic/Azores" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Atlantic/Azores" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Atlantic/Cape_Verde" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Atlantic/Cape_Verde" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Atlantic/Madeira" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Atlantic/Madeira" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Europe/Lisbon" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Europe/Lisbon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Jamaica" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Jamaica" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Enderbury" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Enderbury" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Kiritimati" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Kiritimati" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Portugal" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/Portugal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/tzdata.zi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/tzdata.zi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/zone.tab" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/zone.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/zone1970.tab" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/pytz/zoneinfo/zone1970.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,36 +508,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mat_3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Matplotlib/mat_3.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LogisicRegression/logistic_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#15#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="248" column="12" lean-forward="false" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
-              <folding />
-            </state>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LogisicRegression/data/LogiReg_data.csv">
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fandango_score_comparison.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matplotlib/fandango_score_comparison.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
     </leaf>
@@ -60,6 +540,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>plot</find>
+      <find>pdData</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,27 +554,21 @@
         <option value="$PROJECT_DIR$/Matplotlib/plt_1.py" />
         <option value="$PROJECT_DIR$/Matplotlib/mat_1.py" />
         <option value="$PROJECT_DIR$/Matplotlib/mat_3.py" />
+        <option value="$PROJECT_DIR$/../../checkio/second-index.py" />
+        <option value="$PROJECT_DIR$/LogisicRegression/data/LogiReg_data.txt" />
+        <option value="$PROJECT_DIR$/LogisicRegression/data/LogiReg_data.csv" />
+        <option value="$PROJECT_DIR$/LogisicRegression/logistic_regression.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="825" />
+    <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -108,21 +583,27 @@
             <path>
               <item name="AI_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="AI_course" type="462c0819:PsiDirectoryNode" />
-              <item name="Matplotlib" type="462c0819:PsiDirectoryNode" />
+              <item name="LogisicRegression" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AI_course" type="b2602c69:ProjectViewProjectNode" />
               <item name="AI_course" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="LogisicRegression" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AI_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AI_course" type="462c0819:PsiDirectoryNode" />
+              <item name="Matplotlib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -147,8 +628,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mat_3">
+  <component name="RunManager" selected="Python.logistic_regression">
+    <configuration name="logistic_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LogisicRegression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LogisicRegression/logistic_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mat_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -159,14 +662,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI_course" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/mat_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="mat_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -177,50 +683,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI_course" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/mat_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="pandas_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI_course" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/pandas_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="pandas_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI_course" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/pandas_5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="plt_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -231,32 +704,52 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AI_course" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/plotlib_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pandas_4" />
-      <item index="1" class="java.lang.String" itemvalue="Python.pandas_5" />
-      <item index="2" class="java.lang.String" itemvalue="Python.plt_1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mat_1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mat_3" />
+    <configuration name="second-index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../checkio" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../checkio/second-index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.logistic_regression" />
+      <item itemvalue="Python.mat_1" />
+      <item itemvalue="Python.mat_3" />
+      <item itemvalue="Python.plt_1" />
+      <item itemvalue="Python.second-index" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mat_3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mat_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.plt_1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.pandas_5" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pandas_4" />
+      <list>
+        <item itemvalue="Python.logistic_regression" />
+        <item itemvalue="Python.second-index" />
+        <item itemvalue="Python.mat_3" />
+        <item itemvalue="Python.mat_1" />
+        <item itemvalue="Python.plt_1" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -297,179 +790,83 @@
       <option name="project" value="LOCAL" />
       <updated>1522838955393</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="matplotlib chapter 3">
+      <created>1523963474671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523963474671</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32270917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31621623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39337748" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pandas chapter 4" />
     <MESSAGE value="pandas chapter 5" />
     <MESSAGE value="matplotlib chapter 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="matplotlib chapter 2" />
+    <MESSAGE value="matplotlib chapter 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="matplotlib chapter 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LogisicRegression/logistic_regression.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Matplotlib/mat_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matplotlib/UNRATE.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matplotlib/mat_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Matplotlib/UNRATE.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="86" column="15" lean-forward="true" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40185">
-          <caret line="2679" column="8" lean-forward="false" selection-start-line="2679" selection-start-column="8" selection-end-line="2679" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas_5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="86" column="15" lean-forward="true" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/titanic_train.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/pandas_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/dtypes/missing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="45" lean-forward="true" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="4972" column="0" lean-forward="false" selection-start-line="4972" selection-start-column="0" selection-end-line="4972" selection-end-column="0" />
+          <caret line="4972" selection-start-line="4972" selection-end-line="4972" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/titanic_train.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.3/python_stubs/-1702892797/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="527" column="4" lean-forward="false" selection-start-line="527" selection-start-column="4" selection-end-line="527" selection-end-column="4" />
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -484,98 +881,130 @@
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/matplotlib/backends/backend_macosx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="235" column="4" lean-forward="false" selection-start-line="235" selection-start-column="4" selection-end-line="235" selection-end-column="4" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/internals.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="3842" column="0" lean-forward="false" selection-start-line="3842" selection-start-column="0" selection-end-line="3842" selection-end-column="0" />
+          <caret line="3842" selection-start-line="3842" selection-end-line="3842" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/series.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="3081" column="4" lean-forward="false" selection-start-line="3081" selection-start-column="4" selection-end-line="3081" selection-end-column="4" />
+          <caret line="3081" column="4" selection-start-line="3081" selection-start-column="4" selection-end-line="3081" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Matplotlib/UNRATE.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Matplotlib/mat_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#19#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/pandas_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/fandango_score_comparison.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state relative-caret-position="-5" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/pandas_5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
-          <caret line="83" column="49" lean-forward="false" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="49" />
-          <folding />
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Matplotlib/fandango_score_comparison.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/generic.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.3/python_stubs/-1702892797/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="248" column="12" lean-forward="false" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
-          <folding />
+          <caret line="1790" column="8" selection-start-line="1790" selection-start-column="8" selection-end-line="1790" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../checkio/second-index.py" />
+    <entry file="file://$PROJECT_DIR$/Matplotlib/fandango_score_comparison.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogisicRegression/data/LogiReg_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/matplotlib/artist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="880" selection-start-line="880" selection-end-line="880" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="988" column="4" selection-start-line="988" selection-start-column="4" selection-end-line="988" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Matplotlib/mat_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/numpy/matrixlib/defmatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="1088" column="4" selection-start-line="1088" selection-start-column="4" selection-end-line="1088" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="4518" lean-forward="true" selection-start-line="4518" selection-end-line="4518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogisicRegression/logistic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#15#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogisicRegression/data/LogiReg_data.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
   </component>
 </project>

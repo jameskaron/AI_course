@@ -13,6 +13,7 @@ def fun1():
     return norm_reviews
 
 
+# 柱状图
 def fun2():
     bar_heights = norm_reviews.ix[0, num_cols].values
     print(bar_heights)
@@ -41,8 +42,9 @@ def fun3():
     plt.show()
 
 
+# 散点图
 def fun4():
-    fig = plt.figure(figsize=(5,10))
+    fig = plt.figure(figsize=(5, 10))
     ax1 = fig.add_subplot(2, 2, 1)
     ax2 = fig.add_subplot(2, 1, 2)
 
